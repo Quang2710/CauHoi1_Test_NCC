@@ -1,0 +1,133 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.ALL {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.sidebar {
+  width: 10%;
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.sidebar a {
+  float: left;
+  text-align: start;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-bottom: 1px solid gray;
+}
+a :hover {
+  background-color: aqua;
+}
+.content {
+  width: 90%;
+  height: 100%;
+}
+button {
+  width: 100%;
+}
+.header_content {
+  width: 100%;
+  height: 10%;
+  border-top: 1px solid;
+  text-align: center;
+}
+.header_content img {
+  height: 100%;
+}
+.body_content {
+  width: 100%;
+  min-height: 80%;
+  height: auto;
+  margin-top: 2%;
+}
+.body_content_1 {
+  width: 100%;
+  height: auto;
+  min-height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_content_1 {
+  width: 80%;
+  height: 60%;
+  background-color: #efefef;
+}
+.box_content_1 {
+  text-align: center;
+}
+.box_content_1 :first-child {
+  font-weight: 700;
+}
+.box_content_1 :last-child {
+  font-size: 15px;
+  padding: 0px 150px;
+}
+.body_content_2 {
+  width: 100%;
+  max-height: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+.box_content_2 {
+  width: 80%;
+  height: 90%;
+  display: flex;
+}
+.content_2 {
+  width: 30%;
+  height: 90%;
+  margin: 20px;
+}
+.footer_content {
+  width: 100%;
+  height: 8%;
+  border-top: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy_right {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-weight: 100;
+  color: gray;
+  font-size: 15px;
+}
+@media only screen and (max-device-width: 962px) {
+  body,
+  html {
+    min-height: 100%;
+  }
+  .ALL{
+    width: 100%;
+  }
+  .sidebar {
+    height: 100%;
+  }
+  .box_content_2 {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content_2 {
+    width: 50%;
+  }
+}
